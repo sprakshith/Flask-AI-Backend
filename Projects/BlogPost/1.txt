@@ -1,0 +1,14 @@
+1. User Registration and Login
+
+	1.1. As a visitor, I want to register for an account so I can create and manage my blog posts and interact with the community.
+	
+	Acceptance criteria:
+		- User can fill out a registration form with full name, username, email, and password.
+		- System validates the information and creates a new user account.
+		
+	1.2. As a registered user, I want to log in to my account to access my profile and manage blog posts.
+	
+	Acceptance criteria:
+		- User enters their username and password on a login form.
+		- System validates the credentials and grants access to the user's dashboard.
+		- User receives an error message if login fails with an explanation (e.g., incorrect username or password).

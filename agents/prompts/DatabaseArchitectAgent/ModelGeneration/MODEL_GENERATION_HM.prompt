@@ -1,0 +1,20 @@
+Below is the SQL script:
+```sql
+{sql_script}
+```
+
+Now, understand the above script and write a python class. Make sure to import all the necessary column types.
+
+*REMEMBER*: The below Python code for creating the Base variable is already present in the file. Please do not add it again in your response to avoid redundancy or duplicates, which could result in errors during execution.
+```python
+from sqlalchemy.orm import declarative_base
+
+Base = declarative_base()
+```
+
+*IMPORTANT*: Your response should strictly start with "```python" and end with "```". Your response should not contain any instructions or comments, strictly python code only.
+
+Below is an example of how your response should be:
+```python
+# CODE FOR PYTHON CLASS
+```

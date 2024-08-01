@@ -1,0 +1,15 @@
+flask
+flask-cors
+flask-socketio
+langchain
+langchain-community
+langchain-core
+langchain-mistralai
+langchain-openai
+langchainhub
+langgraph
+pydantic==1.10.17
+pymysql
+python-dotenv
+redbaron
+sqlalchemy

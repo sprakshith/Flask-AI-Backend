@@ -1,0 +1,19 @@
+Below is the first user story, it is delimited between triple backticks:
+
+```
+{user_story}
+```
+
+Now, understand the above user story and write a sql script to create tables to fulfil those requirements.
+
+*IMPORTANT*: Your response should strictly start with "```sql" and end with "```". You should include all the `CREATE TABLE` statements related to the above provided user story without any instruction or comments, strictly SQL code only.
+
+Below is an example of how your response should be:
+```sql
+-- CREATE TABLE statements here
+```
+
+If the user story doesn't have any database or table related details, then in that case respond with empty SQL code like shown below:
+```sql
+-- NO TABLE DETAILS
+```

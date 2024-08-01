@@ -1,0 +1,16 @@
+Below are all the Python imports, they are delimited between triple backticks:
+```
+{all_imports}
+```
+
+Now, analyze the imports and look for those which can be installed using `pip` and only extract those. There might be other imports which are local Python modules inside the project, ignore those.
+
+*IMPORTANT*: Your response should strictly start with "```requirements" and end with "```". And make sure not to include any instruction or comments. Each installation required should be in a newline and do not add the versions.
+
+Below is a hypothetical example:
+```requirements
+numpy
+pandas
+matplotlib
+seaborn
+```

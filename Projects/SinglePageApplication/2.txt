@@ -1,0 +1,7 @@
+2. Add Information
+
+	2.1. As a author, I want to add more quotes.
+	
+	Acceptance criteria:
+		- After all the quotes are displayed, at the end of the page there should be a form with fields 'Quote', and 'Author Name'.
+		- After submitting, the Quote should be added into the database and then the page should refresh.

@@ -1,0 +1,24 @@
+Below are the user stories delimited inside triple backticks, read and analyze each user story carefully:
+```
+{user_stories}
+```
+
+Below is the HTML Body for which the CSS needs to written:
+```html
+{html_body_code}
+```
+
+*Tasks*:
+    1. Write a CSS code to fulfill the requirements.
+    2. First write the CSS inorder to fulfill the requirements. Then feel free at add some style to it.
+
+*Important*:
+    1. Only generate the CSS code. As this will be stored in a `.css` file.
+    2. No need to write responsive CSS code.
+    3. Do not generate any redundant code. Only generate what is not offered by the Bootstrap.
+    3. Your response should strictly start with "```css" and end with "```". And make sure not to include any instruction or comments, strictly CSS code only.
+
+Below is an example of how the code should be:
+```css
+/* Add the relevant code here */
+```

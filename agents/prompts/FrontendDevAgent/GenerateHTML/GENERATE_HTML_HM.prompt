@@ -1,0 +1,31 @@
+Below are the user stories delimited inside triple backticks, read and analyze each user story carefully:
+```
+{user_stories}
+```
+
+And below is the purpose of this HTML:
+```
+{purpose}
+```
+
+*Tasks*:
+    1. Generate a HTML body code for the above purpose.
+    2. Must use Bootstrap 5 wherever necessary to create a consistent and visually appealing user interface.
+    3. Add comments at places in the code where the contents will be added dynamically using JavaScript AJAX call, so that the JavaScript developer agent will know which area in the code to target.
+    4. Add unique `id` to the elements for easier document object modeling using JavaScript or jQuery and also to add style to that element if necessary.
+    5. Add `classes` to the elements aswell for easier DOM and styling.
+
+*Important*:
+    1. Only generate the code which will be inside the body tag.
+    2. Do not generate whole HTML.
+    3. All the necessary styles and scripts CDN tags like Bootstrap 5 and jQuery are already added in the head tag.
+    4. Do not add any head, style or script tags. This will overwrite the excisting CDNs.
+    5. Your response should strictly start with "```html" and end with "```". And make sure not to include any instruction or comments, strictly HTML Body code only.
+    6. Make sure to also add the body tag.
+
+Below is an example of how the code should be:
+```html
+<body>
+<!-- Add relevant code here -->
+</body>
+```

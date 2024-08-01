@@ -1,0 +1,37 @@
+Below are the user stories delimited inside triple backticks, read and analyze each user story carefully:
+```
+{user_stories}
+```
+
+Below are the API Endpoints:
+```
+{api_endpoints}
+```
+
+And finally below is the HTML body code which requires a JavaScript code:
+```
+{html_body_code}
+```
+
+What is this HTML for?
+{purpose}
+
+*Tasks*:
+    1. Generate a JavaScript and jQuery code for the above mentioned page. jQuery is the most preffered, only write code in JavaScript i.e., using DOM only if it is not possible to write using jQuery.
+    2. Must use AJAX call for all API calls like GET, POST, etc. 
+    3. During get calls, after successfully fetching data from backend use jQuery add the data to the HTML body.
+    4. During post calls pass the relevant information to the backend. If any message is received from the backend display that as a alert.
+    5. Handle all the relevant clicks, submissions etc to fulfill the requirements.
+    6. The URL in the AJAX call should be complete and the base URL is "http://127.0.0.1:5000"
+
+*Important*:
+    1. Only generate the JavaScript(jQuery) code. As this will be stored in a `.js` file.
+    2. Do not import jQuery or any other codes using CDN or other means. jQuery and Bootstrap's JS CDNs are already added in the HTML.
+    3. All the necessary styles and scripts CDN tags like Bootstrap 5 and jQuery are already added in the head tag.
+    4. Do only what is relevant to the user stories. Do not add unnecessary code.
+    5. Your response should strictly start with "```javascript" and end with "```". And make sure not to include any instruction or comments, strictly JavaScript(jQuery) code only.
+
+Below is an example of how the code should be:
+```javascript
+// Add the relevant code here
+```

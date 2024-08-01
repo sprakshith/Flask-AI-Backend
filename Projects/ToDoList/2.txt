@@ -1,0 +1,15 @@
+2. Task Completion and Viewing
+
+    1.3. As a user, I want to mark tasks as completed or incomplete so I can track my progress.
+
+    Acceptance criteria:
+        - User can mark a task as completed by clicking a checkbox.
+        - User can mark a completed task as incomplete by unchecking the checkbox.
+        - Completed tasks are visually distinct from incomplete tasks.
+
+    1.4. As a user, I want to view all my todo lists and tasks on a single page so I can easily manage them.
+
+    Acceptance criteria:
+        - User can see a list of all their todo lists.
+        - User can expand a todo list to view all tasks within it.
+        - User can collapse a todo list to hide its tasks.

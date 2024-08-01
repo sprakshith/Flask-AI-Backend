@@ -1,0 +1,17 @@
+Below is the user story, it is delimited between triple backticks:
+
+```
+{user_story}
+```
+
+And below are all the database tables' model classes for better decision making while generating API endpoints:
+```python
+{model_classes}
+```
+
+Now, understand the above user story, then design and generate all API endpoints needed to fullfil the requirements.
+
+*IMPORTANT*: Your response should strictly start with "```json" and end with "```". You should include all the `API endpoints` inside a single markdown type json code block. And make sure to not include any instruction or comments, strictly markdown type json code block only.
+
+Below is the format instruction for you follow that strictly:
+{format_instructions}

@@ -1,0 +1,12 @@
+Below are the user stories delimited inside triple backticks:
+```
+{user_stories}
+```
+
+Read and analyze the above user stories carefully. Then decide on how many number of HTML files are needed, along with the names of each HTML file, and finally the purpose of each HTML file, the purpose should be outlined very descriptively so that the next agent which will write the HTML code will be able to understand and generate a perfect HTML response. 
+
+*IMPORTANT*: 
+    1. One of the HTML pages should definately have the name `index`. This will be the main landing page which the Flask application will render the template by default to open index.html. Other pages names can be anything, the only condition is they should be relevant to the purpose.
+    2. Your response should not contain any instructions or comments, strictly JSON code only.
+
+{format_instructions}

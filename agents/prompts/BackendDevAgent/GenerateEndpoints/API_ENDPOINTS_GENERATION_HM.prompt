@@ -1,0 +1,32 @@
+Below is the user story, it is delimited between triple backticks:
+```
+{user_story}
+```
+
+And below is the JSON schema of the endpoint:
+```json
+{json_schema_design}
+```
+
+For your reference and to eliminated the compile time errors, missing variables or missing/duplicate functions. I have added the database design in the form of model classes below:
+```python
+{model_classes}
+```
+
+Now, understand the above user story and the JSON schema, then write a function to fullfil the requirement. Make sure to import all the necessary modules, classes and functions to ensure the code runs successfully.
+
+*IMPORTANT*: Your response should strictly start with "```python" and end with "```". And make sure not to include any instruction or comments, strictly Python code only.
+
+Below code already exist in the `app.py` file. DO NOT REWRITE, RE-INITIALIZE or RE-IMPORT the existing modules, functions or variables. Just write the API function and import necessary modules related only to that function:
+```python
+from flask import Flask
+from flask_cors import CORS
+from database.models import get_session
+
+app = Flask(__name__)
+CORS(app)
+
+session = get_session()
+
+# ADD YOU TAKE ON FROM HERE, IMPORT AND GENERATE WHAT IS NECESSARY
+```
