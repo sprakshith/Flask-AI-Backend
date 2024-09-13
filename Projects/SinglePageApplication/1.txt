@@ -1,7 +1,0 @@
-1. Home Page
-
-	1.1. As a visitor, I want to read random quotes.
-	
-	Acceptance criteria:
-		- Each quote should be in the form of a bootstrap card with Quote, and Author Name.
-		- A row should have exactly 4 card in it.

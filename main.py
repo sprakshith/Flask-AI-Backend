@@ -1,5 +1,6 @@
 from dotenv import load_dotenv
 from database.utils import ProjectUtils, UserStoryUtils
+from agents.language_models.llm_ollama import OllamaLLM
 from agents.backend_dev_agent import BackendDeveloperAgent
 from agents.code_writer.code_writer import ProjectInitiator
 from agents.frontend_dev_agent import FrontendDeveloperAgent
@@ -8,19 +9,19 @@ from agents.database_architect_agent import DatabaseArchitectAgent
 
 load_dotenv()
 
-dbaa_model = DeepseekCoder(model_name='deepseek-coder', is_local=False)
-bda_model = DeepseekCoder(model_name='deepseek-coder', is_local=False)
-fda_model = DeepseekCoder(model_name='deepseek-coder', is_local=False)
+dbaa_model = DeepseekCoder(model_name='deepseek-coder:6.7b-instruct', is_local=True)
+bda_model = DeepseekCoder(model_name='deepseek-coder:6.7b-instruct', is_local=True)
+fda_model = OllamaLLM(model_name='codellama:7b-instruct', is_local=True)
 
-PROJECT_NAME = 'ToDoList'
+PROJECT_NAME = f'ToDoList-Ensembles'
 
 ProjectUtils.create_project(PROJECT_NAME)
 project = ProjectUtils.get_project_by_name(PROJECT_NAME)
 
 print('Project initiated successfully!')
 
-user_story_1_description = open(f'Projects/{PROJECT_NAME}/1.txt', 'r').read()
-user_story_2_description = open(f'Projects/{PROJECT_NAME}/2.txt', 'r').read()
+user_story_1_description = open(f'Projects/ToDoList/UserStories/1.txt', 'r').read()
+user_story_2_description = open(f'Projects/ToDoList/UserStories/2.txt', 'r').read()
 
 UserStoryUtils.create_user_story(project.id, 1, user_story_1_description)
 UserStoryUtils.create_user_story(project.id, 2, user_story_2_description)

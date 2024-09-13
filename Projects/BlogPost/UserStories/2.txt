@@ -1,0 +1,16 @@
+2. Blog Post Management
+	2.1. As a registered user, I want to create a new blog post with a title and content so I can share my thoughts and ideas.
+
+		Acceptance Criteria:
+			- User can access a "Create Post" page from their dashboard.
+			- User can enter a title and write the blog content in an HTML textarea.
+			- User can publish the blog post by setting the "Publish" boolean to true.
+
+	2.2. As a registered user, I want to edit my existing blog posts so I can update information or fix mistakes.
+
+		Acceptance Criteria:
+			- User can view a list of their blog posts in the dashboard.
+			- User can click on a post to access its editing page.
+			- User can modify the title and content of the post.
+			- User can save the changes or discard them.
+			- User can toggle the "Publish" status to make a post visible or invisible.

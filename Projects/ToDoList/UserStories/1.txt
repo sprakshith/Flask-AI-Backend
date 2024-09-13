@@ -1,0 +1,20 @@
+1. Todo List Management
+
+    1.1. As a user, I want to create, edit, and delete todo lists so I can organize my tasks.
+
+        Acceptance Criteria:
+            - User can create a new todo list by entering a title. There is no limit on the number of todo lists.
+            - User can edit the title of an existing todo list. Editing to a title that already exists is not allowed (no duplicates).
+            - User can delete a todo list and all associated tasks without a confirmation prompt.
+
+    1.2. As a user, I want to add, edit, and delete tasks within a todo list so I can manage my tasks efficiently.
+
+        Acceptance Criteria:
+            - User can add a new task to a todo list by entering a task description. There is no limit on the number of tasks per list.
+            - User can edit the description of an existing task. There are no validations or restrictions on the task description.
+            - User can delete a task from a todo list without a confirmation prompt.
+
+Additional Notes:
+
+    - The application is designed for a single user without the need for authentication.
+    - It is tailored for desktop use only and does not require responsiveness for other devices.

@@ -1,7 +1,7 @@
 flask
 flask-cors
-flask-socketio
 langchain
+langchain-anthropic
 langchain-community
 langchain-core
 langchain-mistralai

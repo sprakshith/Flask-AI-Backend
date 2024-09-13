@@ -1,23 +1,23 @@
 3. Content Consumption and Interaction
 
 	3.1. As a visitor, I want to browse all published blog posts on the website to discover new content and learn from others.
-		
-		Acceptance criteria:
+
+		Acceptance Criteria:
 			- The website displays a list of all published blog posts on the homepage.
 			- Each post displays the title and author.
 			- Clicking on a post redirects the visitor to the full blog post page.
-			
-	3.2. As a registered user, I want to like a blog post to express my appreciation for the content.
-		
-		Acceptance criteria:
+
+	3.2. As a registered user, I want to like or unlike a blog post to express my appreciation for the content.
+
+		Acceptance Criteria:
 			- Each blog post page displays a "Like" button.
-			- Clicking the "Like" button increments the like count for the post.
-			- User can see the total number of likes on a post.
-	
+			- Clicking the "Like" button toggles the like status for the post, incrementing or decrementing the like count.
+			- User can see the total number of likes on a post and a visual indication if they have liked the post.
+
 	3.3. As a registered user, I want to comment on a blog post to share my thoughts and participate in discussions.
-		
-		Acceptance criteria:
+
+		Acceptance Criteria:
 			- Each blog post page has a comment section.
 			- Users can write and submit comments related to the post.
 			- Comments display the username and comment text.
-			- Users can see all comments posted on the blog post. Users can delete their own comments.
+			- Users can delete their own comments but cannot edit them.
